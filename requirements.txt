@@ -1,0 +1,6 @@
+python_anticaptcha
+requests~=2.23.0
+urllib3~=1.25.9
+xlrd~=1.2.0
+XlsxWriter~=1.2.8
+transliterate~=1.10.2
