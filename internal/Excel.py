@@ -2,8 +2,10 @@ import xlrd
 import xlsxwriter
 from transliterate import translit
 
+
 def rus_to_eng(str):
     return translit(str, "ru")
+
 
 class Excel:
     def __init__(self):

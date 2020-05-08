@@ -1,7 +1,4 @@
-
 import json
-
-
 
 from internal.errors import ResponseException, CaptchaException
 from internal.ParserSite import ParserSite

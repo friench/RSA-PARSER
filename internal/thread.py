@@ -3,6 +3,7 @@ import time
 
 from internal import getLogger
 
+
 class WorkerThread(threading.Thread):
     def __init__(self, func, *args):
         threading.Thread.__init__(self, name='Parsing')
